@@ -1,8 +1,9 @@
 {
-  "name": "@lenixdev/createlement",
+  "name": "@lenixdev/createelement",
   "version": "1.0.0",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "license": "GPL-3.0",
   "files": [
     "build"
   ],
