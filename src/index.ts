@@ -1,4 +1,4 @@
-export * from './createElement/index'
-export * from './button/index'
-export * from './sendCallback/index'
-export * from './input/index'
+export { default as createElement } from './createElement/index'
+export { default as Button } from './button/index'
+export { default as Input } from './input/index'
+export { default as sendCallback } from './sendCallback/index'

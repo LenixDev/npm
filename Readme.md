@@ -1,3 +1,3 @@
 # Intoduction
 
-A module that let you create an HTML div element from typescript
+A bench of component that you would need to develop a FiveM frontent web app
