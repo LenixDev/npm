@@ -27,7 +27,12 @@ export default ({
   input.placeholder = placeholder
   input.className = className
 
-  if (onSubmit) input.addEventListener("change", onSubmit)
+  if (onSubmit) input.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+      onSubmit();
+    }
+  })
+  
   if (onChange) input.addEventListener("input", onChange)
   if (onJoin) input.addEventListener("click", onJoin)
 

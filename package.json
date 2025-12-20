@@ -1,6 +1,6 @@
 {
   "name": "@lenixdev/ui_components",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "license": "GPL-3.0",
