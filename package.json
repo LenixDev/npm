@@ -34,7 +34,7 @@
     "build:web": "npx tsc -p src/web/tsconfig.json"
   },
   "devDependencies": {
-    "esbuild": "^0.20.0",
+    "esbuild": "^0.27.2",
     "@citizenfx/client": "^2.0.23683-1",
     "@citizenfx/server": "^2.0.23683-1",
     "typescript": "^5.0.0",
